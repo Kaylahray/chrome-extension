@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Screen Recorder",
+  "version": "1.0",
+  "description": "Record your screen and audio",
+  "permissions": [
+    "activeTab",
+    "desktopCapture",
+    "audioCapture",
+    "videoCapture"
+  ],
+
+  "icons": {
+    "128": "icons/iconImage.png"
+  }
+}

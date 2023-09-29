@@ -1,0 +1,29 @@
+.footer {
+  display: inline-flex;
+  padding: 98px 130px;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 243px;
+  background: var(--primary-main, #120b48);
+}
+.footer_logo {
+  background-color: aqua;
+  width: 157px;
+  height: 60px;
+}
+.footer_info {
+  background-color: orange;
+  height: 151px;
+  width: 780px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 200px;
+}
+.footer_text {
+  display: flex;
+  flex-direction: column;
+  width: 104px;
+  gap: 26px;
+}
