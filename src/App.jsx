@@ -3,7 +3,7 @@ import Signin from "./pages/signin";
 import Singlevideo from "./pages/singlevideo";
 import VideoFileSent from "./pages/FileSent";
 import HomePage from "./pages/homePage";
-import LandingPage from "./pages/landingPage";
+import LandingPage from "./pages/landing";
 const App = () => {
   return (
     <>
