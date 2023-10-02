@@ -1,9 +1,9 @@
 import { Route, Routes } from "react-router-dom";
 import Signin from "./pages/signin";
 import Singlevideo from "./pages/singlevideo";
-import LandingPage from "./pages/landingPage";
 import VideoFileSent from "./pages/FileSent";
 import HomePage from "./pages/homePage";
+import LandingPage from "./pages/landingPage";
 
 const App = () => {
   return (
