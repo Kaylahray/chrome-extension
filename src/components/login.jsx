@@ -2,6 +2,7 @@ import google from "../assets/google.svg";
 import facebook from "../assets/facebookk.svg";
 import Authbtns from "../ui/authbtns";
 import Button from "../ui/button";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -43,8 +44,9 @@ const Login = () => {
             placeholder="Enter your password"
           />
         </span>
-
-        <Button className="py-4">Sign Up</Button>
+        <Button className="py-4">
+          <Link to={"/home"}>Sign Up</Link>
+        </Button>
       </form>
     </div>
   );
