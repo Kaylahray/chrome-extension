@@ -1,12 +1,22 @@
-import "./App.css";
-import LandingPage from "./Pages/LandingPage/LandingPage";
+import { Route, Routes } from "react-router-dom";
+import Signin from "./pages/signin";
+import Singlevideo from "./pages/singlevideo";
+import LandingPage from "./pages/landingPage";
+import VideoFileSent from "./pages/FileSent";
+import HomePage from "./pages/homePage";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <LandingPage />
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<LandingPage />}></Route>
+        <Route path="/home" element={<HomePage />} />
+        <Route path="/login" element={<Signin />} />
+        <Route path="/file" element={<VideoFileSent />} />
+        <Route path="/video" element={<Singlevideo />} />
+      </Routes>
+    </>
   );
-}
+};
 
 export default App;
