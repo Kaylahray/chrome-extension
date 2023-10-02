@@ -4,7 +4,6 @@ import Singlevideo from "./pages/singlevideo";
 import VideoFileSent from "./pages/FileSent";
 import HomePage from "./pages/homePage";
 import LandingPage from "./pages/landingPage";
-
 const App = () => {
   return (
     <>
